@@ -1,0 +1,111 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+   display: flex;
+   flex-direction: column;
+}
+
+#top-header {
+   display: flex;
+   padding: 10px 30px 10px 30px;
+   justify-content: space-between;
+   align-items: center;
+   gap:100px
+}
+
+.searchsect {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex: 1;
+}
+
+.rightsect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#main-header {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightside {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+    gap:30px
+}
+
+.search {
+   height: 25px;
+   border: none;
+   background-color: gainsboro;
+   border-radius: 25px;
+   flex: 1;
+}
+
+
+#sidebar {
+    grid-row: 1/3;
+    background-color: #4f7cbe;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.menuicon {
+    width: 20px;
+    fill: white;
+}
+
+.icon {
+    width: 30px;
+}
+
+.profile-img-lg,
+.profile-img {
+    width: 50px;
+    height: 50px;
+    background-color: #ffff99;
+    border-radius: 100px;
+    border: 1px solid #b4b4b4;
+    color: green;
+}
+
+.profile-img-lg {
+    width:70px;
+    height: 70px;
+}
+
+.profile-name {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+button {
+    background-color: #4f7cbe;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+
+}
